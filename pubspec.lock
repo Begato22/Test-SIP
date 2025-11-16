@@ -33,14 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.0"
-  bloc:
-    dependency: transitive
-    description:
-      name: bloc
-      sha256: a2cebb899f91d36eeeaa55c7b20b5915db5a9df1b8fd4a3c9c825e22e474537d
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.1.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -228,13 +220,13 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_webrtc:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_webrtc
-      sha256: "16ca9e30d428bae3dd32933e875c9f67c5843d1fa726c37cf1fc479eb9294549"
+      sha256: b832dc76c0d1577f14aaf35e9c38d4ed7667cbc89c492b7bf4505d8d5f62e08b
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.0"
+    version: "0.12.12+hotfix.1"
   glob:
     dependency: transitive
     description:
@@ -499,14 +491,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  reflectable:
-    dependency: "direct main"
+  recase:
+    dependency: transitive
     description:
-      name: reflectable
-      sha256: "80ec665d53a8e5f3782e542c65f43546537ad4fa37f228fffd0d7ae5eb382cc6"
+      name: recase
+      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.1"
+    version: "4.1.0"
   sdp_transform:
     dependency: transitive
     description:
@@ -534,12 +526,11 @@ packages:
   sip_ua:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "143d5aafdb6cb71b3561b442f8d68732ca4114ce"
-      resolved-ref: "143d5aafdb6cb71b3561b442f8d68732ca4114ce"
-      url: "https://github.com/Begato22/dart-sip-ua"
-    source: git
-    version: "1.1.0"
+      name: sip_ua
+      sha256: fb4d64902aa949f8940061932cbbb6cceb1ecab8560f4d87dd5165a6d528934a
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -689,38 +680,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
-  webview_flutter:
-    dependency: "direct main"
-    description:
-      name: webview_flutter
-      sha256: c3e4fe614b1c814950ad07186007eff2f2e5dd2935eba7b9a9a1af8e5885f1ba
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.13.0"
-  webview_flutter_android:
-    dependency: transitive
-    description:
-      name: webview_flutter_android
-      sha256: e5201c620eb2637dca88a756961fae4a7191bb30b4f2271e08b746405ffdf3fd
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.10.5"
-  webview_flutter_platform_interface:
-    dependency: transitive
-    description:
-      name: webview_flutter_platform_interface
-      sha256: "63d26ee3aca7256a83ccb576a50272edd7cfc80573a4305caa98985feb493ee0"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.14.0"
-  webview_flutter_wkwebview:
-    dependency: transitive
-    description:
-      name: webview_flutter_wkwebview
-      sha256: "5de608fdea144d4370c21d4c80f0528135529e0180aa129790064c345e457a43"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.23.2"
   xdg_directories:
     dependency: transitive
     description:
