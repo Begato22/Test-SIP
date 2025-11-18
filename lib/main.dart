@@ -38,11 +38,11 @@ class _MyHomePageState extends State<MyHomePage> implements SipUaHelperListener 
 
   final SIPUAHelper _helper = SIPUAHelper();
 
-  final String _sipServer = '1653.3cx.cloud'; // PBXPublicAddr
+  final String _sipServer = '139.84.143.26'; // PBXPublicAddr
   final String _sipPort = '5060'; // PBXSipPort
-  final String _extension = '23510'; // Extension
-  final String _authId = 'T9Ef7YZcFB'; // AuthID
-  final String _password = 'Y9iYFCUu7r'; // AuthPass
+  final String _extension = '1015'; // Extension
+  final String _authId = '1015'; // AuthID
+  final String _password = r'oFFice@3890Sip#$'; // AuthPass
   final String _displayName = 'Eslam';
 
   @override
@@ -51,14 +51,14 @@ class _MyHomePageState extends State<MyHomePage> implements SipUaHelperListener 
 
     UaSettings settings = UaSettings();
 
-    settings.uri = '$_extension@$_sipServer';
+    settings.uri = '$_extension@$_sipServer:$_sipPort';
     settings.displayName = _displayName;
     settings.authorizationUser = _authId;
     settings.password = _password;
     settings.host = _sipServer;
     settings.port = _sipPort;
     settings.transportType = TransportType.TCP;
-    settings.realm = "3CXPhoneSystem";
+    settings.realm = _sipServer;
     settings.registrarServer = _sipServer;
 
     TcpSocketSettings tcpSocketSettings = TcpSocketSettings();
